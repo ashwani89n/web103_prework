@@ -1,0 +1,19 @@
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .ReadPosts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.164);
+    border-radius: 15px;
+    padding: 50px;
+    box-sizing: border-box;
+    max-height: 1500px; 
+    overflow-y: auto; 
+  }
+  

@@ -1,0 +1,55 @@
+.view-creator {
+    width: 1000px;
+    background-color: rgba(168, 168, 168, 0.829);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+  }
+  .creator-header {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+  }
+  
+  .creator-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .creator-info {
+    flex: 1;
+  }
+  
+  .creator-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    font-family: cursive;
+    color: black;
+  }
+  
+  .creator-description {
+    margin-top: 10px;
+    font-size: 16px;
+    color: black;   
+  }
+  
+  .creator-url {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .instagram-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+ 
